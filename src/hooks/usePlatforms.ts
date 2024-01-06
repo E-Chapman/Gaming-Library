@@ -17,4 +17,5 @@ const usePlatforms = () => useQuery({
   initialData: platforms,
 });
 
+
 export default usePlatforms;
