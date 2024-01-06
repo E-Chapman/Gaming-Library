@@ -3,6 +3,7 @@ import { AxiosRequestConfig } from 'axios';
 
 export interface FetchReponse<T> {
   count: number;
+  next: string | null;
   results: T[];
 }
 
